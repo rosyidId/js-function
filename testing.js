@@ -25,6 +25,26 @@ const people = [
         umur: 30,
     },
 ];
+// includes
+// ini berlaku untuk simple data array
+// const items = [1,2,3,4,5,6,7]
+// const x = items.includes(2)
+// console.log(x);
+
+// tidak berlaku
+// const getIncludeData = people.includes((item) => {
+//     return console.log(item.nama);
+// })
+// console.log(getIncludeData);
+
+// reduce
+// cocok untuk menghitung total harga dari masing2 product
+// nahhhh disini mengggunakan dua parameter yaitu item saat ini dan item dirinya sendiri
+// const getReduceData = people.reduce((currentItem, item) => {
+//     return item.umur + currentItem;
+// },0);
+// console.log(getReduceData);
+
 // every
 // mengecek keseluruhan data yang ada (true / false)
 // const getEveryData = people.every((item) => {
